@@ -1,0 +1,19 @@
+{
+  "name": "dodger-bot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "dodger-bot.js",
+  "scripts": {
+    "test": "node dodger-bot.js Dalton"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhartman/dodger-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdhartman/dodger-bot/issues"
+  },
+  "homepage": "https://github.com/jdhartman/dodger-bot#readme"
+}
