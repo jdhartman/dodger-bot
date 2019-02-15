@@ -2,6 +2,12 @@ require('dotenv').config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+var channel = process.env.GENERAL_ID
+
+if(process.argv[3] === "test") {
+	channel = process.env.TEST_ID;
+}
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.channels.get(process.env.GENERAL_ID).fetchMessages().then(messages => {
