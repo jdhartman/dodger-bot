@@ -5,7 +5,7 @@
   "main": "dodger-bot.js",
   "scripts": {
     "test": "node dodger-bot.js DodgerMoo test",
-    "start": "node dodger-bot.js DodgerMoo test"
+    "start": "node dodger-bot.js Dalton"
   },
   "repository": {
     "type": "git",
