@@ -4,8 +4,8 @@
   "description": "Discord bot",
   "main": "dodger-bot.js",
   "scripts": {
-    "test": "node dodger-bot.js DodgerMoo test",
-    "start": "node dodger-bot.js Dalton"
+    "test": "node dodger-bot.js",
+    "start": "node dodger-bot.js"
   },
   "repository": {
     "type": "git",
